@@ -103,7 +103,6 @@ a{
 .social-icon{
     width: 90px ;
     height: 90px ;
-    margin : 0 100px ;
 }
 
 hr{
@@ -170,7 +169,7 @@ h3{
 }
 
 img{
-    margin: 0 20px ;;
+    margin: 0 20px ;
 }
 
 .langage{
@@ -245,11 +244,22 @@ img{
 }
 
 .job{
-    padding : 20px 0 ;
+    padding-top : 20px ; 
+    padding-bottom: 30px ;
     margin-bottom: 20px;
     border-bottom: solid 2px #003253 ;
 }
 
 .list{
     list-style-type: circle;
+}
+
+.info-list{
+    padding : 10px 0 ;
+}
+
+.info-title{
+    font-size: 20px ;
+    font-style: italic;
+    font-weight: bold;
 }
