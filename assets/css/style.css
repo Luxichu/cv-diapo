@@ -66,6 +66,8 @@ nav {
 section{
     padding : 60px 20px ;
     margin : 60px 20px ;
+    box-sizing: border-box;
+    scroll-margin-top: 100px;
 }
 
 h1{
@@ -177,3 +179,43 @@ img{
     padding : 20px ; 
     margin :20px ;
 }
+
+.grid{
+    display: grid;
+    grid-template-areas: 
+        "top top top"
+        "left center right"
+        "bottom bottom bottom " ;
+    grid-template-rows: auto ;
+    grid-template-columns: 1fr auto 1fr ;
+    justify-items: center ;
+    align-items: center;
+    gap : 20px ;
+}
+
+.top{
+    grid-area: top ;
+}
+
+.left{
+    grid-area: left ;
+}
+
+.center{
+    grid-area: center ;
+}
+
+.right{
+    grid-area: right ;
+}
+
+.bottom{
+    grid-area: bottom ;
+}
+
+.top, .left, .right, .bottom{
+    font-size : 25px ;
+    font-style: italic ;
+    font-weight: bold;
+}
+
