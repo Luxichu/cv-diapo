@@ -131,6 +131,7 @@ ul{
 ul li{
     font-size: 18px ;
     color: #03224C;
+    margin : 15px ;
 }
 
 .formation-item{
@@ -156,6 +157,7 @@ ul li{
 h3{
     font-style: italic;
     font-weight: bold;
+    font-size : 25px;
 }
 
 .system{
@@ -181,6 +183,7 @@ img{
 }
 
 .grid{
+    padding : 20px 0 ;
     display: grid;
     grid-template-areas: 
         "top top top"
@@ -219,3 +222,34 @@ img{
     font-weight: bold;
 }
 
+.exp-item{
+    display: flex ;
+    justify-content: space-between;
+    align-items : center ;
+}
+
+.exp-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.exp-place{
+    font-style: italic;
+    font-size: 18px ;
+}
+
+.exp-date{
+    color :#acc7d4 ; 
+    font-weight: bold;
+    font-size: 20px ;
+}
+
+.job{
+    padding : 20px 0 ;
+    margin-bottom: 20px;
+    border-bottom: solid 2px #003253 ;
+}
+
+.list{
+    list-style-type: circle;
+}
