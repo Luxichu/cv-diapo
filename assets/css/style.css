@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
 body {
     padding : 0 ; 
     margin : 0 ;
+    font-family: 'Rubik', 'Times New Roman', Times, serif;
 }
 .sidebar{
     width: 300px;
@@ -67,6 +71,10 @@ h1{
     padding-bottom : 0 ;
 }
 
+#profile{
+    text-transform: uppercase;
+}
+
 .profile-info{
     font-size: 18px;
     color: #03224C;
@@ -75,8 +83,10 @@ h1{
 
 .profile-text{
     font-size: 25px;
+    text-indent: 20px;
     color:  #03224C;
     padding: 20px 0 ;
+    margin : 10px 0 ;
 }
 
 a{
@@ -93,4 +103,45 @@ hr{
     color :#abc6d4 ;
     padding : 0 ;
     margin : 0 ;
+}
+
+h2{
+    color: #acc7d4;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+p{
+    color: #03224C;
+
+}
+
+ul{
+    list-style-type: none;
+    padding : 0 ;
+}
+
+ul li{
+    font-size: 18px ;
+    color: #03224C;
+}
+
+.formation-item{
+    display: flex ;
+    justify-content: space-between;
+    align-items : center ;
+    margin-bottom: 20px;
+}
+
+.formation-name{
+    font-weight: bold;
+}
+
+.formation-place{
+    font-style: italic;
+}
+
+.formation-date{
+    color :#acc7d4 ; 
+    font-weight: bold;
 }
